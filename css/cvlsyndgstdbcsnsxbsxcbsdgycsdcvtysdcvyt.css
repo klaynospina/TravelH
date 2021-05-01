@@ -1,0 +1,95 @@
+/*:root {--fondo-primario: rgb(255, 255, 255);--color-primario: white;--col-netooll: #000;--principal-padding: 0%;
+--principal-box: border-box;--two-decoration: none;--contenedor-heigh: 100%;--contenedor-margin: 0 auto;
+--contenedor-display: grid;--contenedor-grid-template-rows: 90px auto;--contenedor-grid-template-columns: 80px auto;
+--contenedor-grid-template-areas: "header header";--header-background-color: rgb(0 0 0 / 0%);--header-padding: 29px 15px;
+--header-display: grid;--header-position: fixed;--header-width: 100%;--header-grid-template-columns: auto 1fr;
+--header-justify-content: space-between;--header-grid-gap: 20px;--header-grid-template-areas: "logo busqueda iconos";
+--header-box-shadow: 2px 2px 9px 2px rgb(223, 222, 222);--headercontenedor-logoboton-padding-grid-area-padding: 10px;
+--headercontenedor-logoboton-background-grid-area-background: none;--headercontenedor-logoboton-cursor-grid-area-cursor:
+pointer;--headercontenedor-logoboton-font-grid-area-font-size: 23px;--headercontenedor-logoboton-border-grid-area-font
+-size: 23px;--headercontenedor-logoboton-width-grid-area-width: 50px;--headercontenedor-logoboton-heigth-grid-area-
+height: 50px;--headercontenedor-logoboton-marg-grid-area-margin-right: 10px;*//*--header-contrcontenedor-logoutlogo-
+logofab-*//*paddinz: font-size: 40px;--header-contrcontenedor-logoutlogo-logofab-border-radius: 6px;--header-contrcont
+enedor-logoutlogo-logofab-paddink-color:rgb(0 53 128);--header-contrcontenedor-logoutlogo-logofab-paddinp-position:*/																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+* {padding: 0%;margin: 0%;box-sizing: border-box;text-decoration: none;}.menu_bar {display: none;}header{width: 100%;}
+header nav {background: #003580;z-index: 1000;max-width:1000px;width: 100%;color:white;padding: 0px 10px;}header nav ul{
+list-style: none;}header nav ul li {display: inline-block;position: relative;}header nav ul li:hover{background:
+#6999dd1a;border-radius: 7px;}header nav ul li a{color: rgb(255, 255, 255);display: block;text-decoration: none;
+padding: 20px;}header nav ul li a span{margin-right: 10px;}header nav ul li:hover .children {display: block;}
+header nav ul li.children {display: none;background: #003580;position: absolute;color: #000;width: 150%;z-index: 1000;
+border-radius: 5px;}header nav ul li .children li {display: block;overflow: hidden;}header nav ul li .children li a 
+{display: block;}header nav ul li .caret{position: relative;top: 3px;margin-left: 10px;margin-right: 0px;}
+@media screen and (max-width: 870px){body{padding-top: 80px;}.menu_bar {display: block;width: 100%;position: fixed;
+top: 0;background: #eee;z-index: 10000;.menu_bar .bt-menu {display: block;padding: 20px;color: #000;overflow: hidden;
+font-size: 25px;font-weight: bold;text-decoration: none;}.menu_bar span {float: right;font-size: 40px;}header nav 
+{width: 80%;height: calc(100% - 80px);position: fixed;right: 100%;margin: 0;overflow: scroll;}header nav ul li {
+display: block;border-bottom: 1px solid rgba(255, 255, 255, .5);}header nav ul li a {display: block;}
+header nav ul li:hover .children {display: none;}header nav ul li .children {width: 100%;position: relative;}
+header nav ul li .children li a {margin-left: 20px;}header nav ul li .caret {float: right;}}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+@media screen and (max-width: 313px) {.menu_bar .bt-menu {color: #000;font-size: 18px;}.menu_bar span {float: right;
+font-size: 20px;}}section {background: rgb(245, 244, 244);}@media screen and (max-width: 870px){section{margin: 0px 0;}
+}section h2{color:rgb(100, 99, 99);font-size:18px;margin-left:50px;margin: 10px 50px;font-family: 'Cairo', sans-serif;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+section p {font-size: 22px;margin-left: 50px;margin: 20px 50px;font-family: 'Cairo', sans-serif;}
+@media screen and (max-width: 420px){section h2 {font-size: 13px;width:60%;text-align: center;}section p{color: #003580;
+font-size:15px;text-align: center;}}@media screen and (max-width: 313px){section h2 {font-size:10px;text-align: center;}
+section p {color: #003580;font-size: 12px;text-align: center;}}h4,h2,small,.mas,a {margin: 0;padding: 0;}a {
+text-decoration: none;}.Carousel {width: 100%;margin: 0px 10px;}.Carousel h2 {font-size: 26px;line-height: 38px;
+padding-bottom: 24px;opacity: .9;text-transform: uppercase;letter-spacing: 10px;text-align: center;}/* images */																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+.slick-list {position: relative;display: flex;align-items: center;width: fit-content;height: 250px;padding: 10px 0px;
+margin: 0px auto;max-width: 90vw;overflow: hidden;}.slick-track {position: relative;top: 0;left: 0;display: flex;
+justify-content: center;transition: .5s ease-in-out;}.slick {position: relative;width: 275px;padding: 0 10px;float: left;
+display: flex;height: 100%;}@media screen and (max-width: 400px) {.slick {float: none;padding: 0 0px;width: 160px;}}
+.slick h4 {position: absolute;z-index: 1;font-size: 15px;line-height: 23px;color: rgb(0, 0, 0);padding: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}	.slick h4 small {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:15px;display:block;color: #000;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+.slick #mas {color: white;background: #003580;padding: 12px 10px;border-radius: 10px;margin: 50px 9s0px;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+@media screen and (max-width: 400px) {.lick #mas {color: white;background: #003580;padding: 12px 10px;border-radius:10px;
+margin: 50px 9s0px;}}.slick #mas:hover {background: #024db8d3;}	@media screen and (max-width: 400px) {.slick h4 small {
+font-size: 13px;}}.slick h4 small:hover {color: #003580;}.slick a img {object-fit:cover;height:170px;width:100%;
+border-radius:4px;box-shadow: 0 2px 5px 0rgba(0, 0, 0, .5);transition:.3s ease-in-out;}@media screenand(max-width:400px){
+.slick a img{height: 130px;width: 80%;}}.slick a img:hover{opacity: .85;}/* buttons */.slick-arrow {border-radius: 30px;
+background-color:#fff;position:absolute;z-index:4;width:38px;height: 38px;text-align:center;box-shadow: 0 2px 5px 0 
+rgba(0, 0, 0, .15);border: 0;cursor: pointer;}.slick-arrow:focus {outline: 0;}.slick-arrow svg {width: 12px;height: 100%;
+color: rgba(0, 0, 0, .7);}.slick-prev {left: 0px;}.slick-next {right: 0px;}.tooltip {position: relative;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+.tooltip:hover .tooltip-box {display: inline-block;transition: cubic-bezier(0.075, 0.82, 0.165, 1);}.tooltip-box {
+display: none;position: absolute;background: #333;line-height: 20px;z-index: 2000;text-align: center;color: white;
+font-size: 14px;padding: 5px 10px;border-radius: 5px;left: 26px;bottom: -50px;right: 0px;width: 120pt;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+@media screen and (max-width: 870px){.tooltip-box:hover .tooltip-box{display: none;}.tooltip-box{background: transparent;
+color: transparent;}}	.tooltip-box:after {content: "";display: block;border-top: 12px solid transparent;
+border-left: 12px solid #333;border-right:14px solid transparent;position: absolute;bottom: 45px;left: calc(50% - 12px);}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+@media screen and (max-width: 870px) {.tooltip-box:after {border-top: 12px solid transparent;
+border-left: 12px solid transparent;border-right: 14px solid transparent;}}.bors {color: #003580;margin: 30px 60px;
+font-size:25px;padding:10px 10px;top:70px;width:50;background:#0035801f;width:200px;box-shadow: 0PX 0PX 2PX 2PX #00358085;
+}.categorias{width:100%;max-width:900px;margin-top:60px;margin-left:30px;}.lbl-menu {border-bottom: 3px solid #003580;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+.lbl-menu label {display:inline-block;padding:10px;color:#003580;cursor: pointer;transition: all 400ms ease;
+font-family: 'Scada', sans-serif;}.lbl-menu label:hover{background:rgba(87, 138, 206, 0.144);box-shadow: 0PX 0PX 2PX 2PX 
+#00358085;}.content {position: relative;}.content div {position: absolute;line-height: 1.8;transition: all 600ms ease;
+opacity: 0;visibility: hidden;transform: scale(0.90);padding: 30px;background: rgb(255, 255, 255);padding-bottom: 70px;
+top: 9px;}#radio1,#radio2,#radio3{display: none;}#radio1:checked~.tab1,#radio2:checked~.tab2,#radio3:checked~.tab3 {
+opacity: 1;visibility: visible;transform: scale(1);}.content div:after {position: absolute;content: "";
+border-left: 10px solid transparent;border-right:10px solid transparent;border-top: 10px solid rgba(87, 139, 206, 0.589);
+border-bottom: 10px solid transparent;bottom: 97%;left: 18px;}.content .tab2:after {left: 110px;}.content .tab3:after {
+left: 225px;}.content .tab4:after {left: 303px;}.tab1 contador ul {background: rgb(255, 255, 255);
+box-shadow: 0px 4px 4px 6px rgb(236, 236, 236);}.tab1 contador ul li {color: #003580;font-family:
+'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;list-style: none;padding: 10px 20px 10px 10px;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+.tab1 contador ul li {color: #003580;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 100px;left: 0;box-sizing: border-box;margin: 10px;}.tab1 contador ul li {width: 10%;display: table-cell;}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+.tab1 contador ul li a {padding: 10px;color: #003580;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+sans-serif;}.tab1 contador ul li a:hover {color: #000;background: #00358018;border-radius: 5px;}/*=================*/																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+.tab2 contador ul {background: rgb(255, 255, 255);box-shadow: 0px 4px 4px 6px rgb(236, 236, 236);}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+.tab2 contador ul li {color: #003580;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: none;padding: 10px 20px 10px 10px;}.tab2 .contador ul li {color: #003580;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;width: 100px;left: 0;box-sizing: border-box;
+margin: 10px;}.tab2 contador ul li {width: 10%;display: table-cell;}.tab2 contador ul li a {padding: 10px;color: #003580;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}.tab2 contador ul li a:hover {color: #000;
+background:#00358018;border-radius: 5px;}.redes {margin:320px 40px;text-align:center;background-color:#fff;width: 100%;
+max-width: 1000%;box-sizing: border-box;height: 100%}/* ------------------------- *//* Footer *//* ------------------- */
+footer .redes-sociales {display: flex;align-content: center;justify-content: center;padding: 20px;flex-wrap: wrap;
+border-bottom: 3px solid #ba3eaf;}footer .redes-sociales a {display: block;width: 60px;height: 60px;background: #000;
+color: #fff;margin: 20px;text-align: center;border-radius: 100px;transition: .3s ease all;}
+footer .redes-sociales .twitter {background: #1da1f2;}footer .redes-sociales .facebook {background: #3b5998;}
+footer .redes-sociales .instagram {background: #c13584;}footer .redes-sociales .tiktok {background: #000;}
+footer .redes-sociales .discord{background: #7289da;}footer .redes-sociales a i{font-size: 20px;line-height: 60px;}
+footer .contenedor-icono:hover a {animation: icono .5s ease;}@keyframes icono {	from {transform: rotate3d(0,0,0,0);}
+to {transform: rotate3d(0,1,0, 360deg);}}
+
